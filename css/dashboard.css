@@ -1,0 +1,111 @@
+:root {
+  --sidebar-color: #171717;
+  --content-color: #212121;
+  --border-color: #ffffff26;
+  --placeholder-color: #9b9b9b;
+  --active-color: #2f2f2f;
+}
+
+.text-bg-sidebar {
+  color: #fff;
+  background-color: var(--sidebar-color) !important;
+}
+
+.text-bg-content {
+  color: #fff;
+  background-color: var(--content-color) !important;
+}
+
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.offcanvas-md {
+  padding: 14px;
+  width: 260px;
+}
+
+.sidebar-logo,
+.btn.btn-sidebar {
+  font-size: 0.875rem;
+}
+
+.sidebar-heading,
+.btn.btn-sidebar {
+  padding: 8px;
+}
+
+.sidebar-heading {
+  color: var(--placeholder-color);
+  font-size: 0.75rem;
+}
+
+.btn.btn-sidebar {
+  color: inherit;
+  display: block;
+}
+
+.btn.btn-sidebar:hover,
+.btn.btn-sidebar:active {
+  background-color: var(--content-color);
+}
+
+.btn.btn-sidebar:active,
+.btn.btn.btn-white:active {
+  opacity: 0.9;
+}
+
+.btn.btn-sidebar.active {
+  background-color: var(--active-color);
+}
+
+.form-control,
+.form-select,
+.form-control::placeholder,
+.form-control:focus,
+.form-select:focus {
+  background-color: var(--content-color);
+  color: #fff;
+  border-color: var(--border-color);
+}
+
+/* Ensure the form control styles aren't changed on autofill */
+.form-control:-webkit-autofill,
+.form-select:-webkit-autofill,
+.form-control:-webkit-autofill:focus,
+.form-select:-webkit-autofill:focus,
+.form-control:-webkit-autofill:hover,
+.form-select:-webkit-autofill:hover,
+.form-control:-webkit-autofill:active,
+.form-select:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--content-color) inset;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.5px #fff;
+}
+
+.form-control::placeholder {
+  color: var(--placeholder-color);
+}
+
+.btn-white {
+  color: var(--content-color);
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.table-content th,
+.table-content td {
+  color: #fff;
+  background-color: var(--content-color);
+}
+
+.btn.btn-white:hover,
+.btn.btn-white:active {
+  color: var(--content-color);
+  background-color: #f2f2f2;
+}

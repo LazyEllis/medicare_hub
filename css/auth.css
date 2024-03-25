@@ -1,0 +1,33 @@
+:root {
+  --green: #10a37f;
+  --green-dark: #0e9272;
+}
+
+.link-green,
+.form-group:focus-within label {
+  color: var(--green);
+}
+
+.form-group:focus-within input {
+  border-color: var(--green);
+  box-shadow: 0 0 0 0.5px var(--green);
+}
+
+.btn-green {
+  color: #fff;
+  background-color: var(--green);
+}
+
+.btn.btn-green:hover,
+.btn.btn-green:active {
+  color: #fff;
+  background-color: var(--green-dark);
+}
+
+.btn.btn-green:active {
+  opacity: 0.9;
+}
+
+.link-green:hover {
+  color: var(--green-dark);
+}

@@ -1,0 +1,46 @@
+:root {
+  --blue: #3c46ff;
+  --blue-dark: #0000ff;
+  --outline-color: #dee2e6;
+}
+
+.text-bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.text-bg-indigo {
+  color: #d292ff;
+  background-color: #00002e;
+}
+
+.description {
+  max-width: 650px;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: var(--blue);
+}
+
+.btn.btn-blue:hover,
+.btn.btn-blue:active {
+  background-color: var(--blue-dark);
+}
+
+.btn.btn-blue:active {
+  opacity: 0.9;
+}
+
+.form-control,
+.form-select,
+.main a.btn,
+button[type="submit"] {
+  padding: 12px 16px;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
